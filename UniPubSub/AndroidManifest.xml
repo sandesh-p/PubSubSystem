@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unipubsub"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".CreateTopic"
+            android:label="@string/title_activity_create_topic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.unipubsub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Publish_to_topic"
+            android:label="@string/title_activity_publish_to_topic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.unipubsub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PublishToTopic"
+            android:label="@string/title_activity_publish_to_topic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.unipubsub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SubscribeToTopic"
+            android:label="@string/title_activity_subscribe_to_topic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.unipubsub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UniversitySelection"
+            android:label="@string/title_activity_university_selection" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchResults"
+            android:label="@string/title_activity_search_results" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.unipubsub.UniversitySelection" />
+        </activity>
+    </application>
+
+</manifest>

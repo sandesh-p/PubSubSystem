@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget38"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Spinner
+	android:id="@+id/topic_spinner"
+	android:layout_width="320dp"
+	android:layout_height="50dp" />
+<EditText
+	android:id="@+id/publish_message_input"
+	android:layout_width="318dp"
+	android:layout_height="93dp"
+	android:hint="@string/publish_message"
+	android:textSize="18sp" />
+<Button
+	android:id="@+id/publish_button"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/submit" />
+</LinearLayout>

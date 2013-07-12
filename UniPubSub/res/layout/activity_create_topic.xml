@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget41"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/creatingTextView"
+        android:layout_width="317dp"
+        android:layout_height="47dp"
+        android:layout_x="2dp"
+        android:layout_y="175dp"
+        android:gravity="center"
+        android:text="@string/creatingWait"
+        android:textSize="24sp" />
+
+</AbsoluteLayout>

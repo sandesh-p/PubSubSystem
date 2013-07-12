@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView
+	android:id="@+id/SelectStatelabel"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/selectState"
+	android:gravity="center" />
+    
+<Spinner
+	android:id="@+id/StateListSpinner"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content" />
+<TextView
+	android:id="@+id/blankTextView"
+	android:layout_width="320dp"
+	android:layout_height="30dp" />
+<TextView
+	android:id="@+id/selectUniversityLabel"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/selectUniversity"
+	android:gravity="center" />
+
+<Spinner
+	android:id="@+id/UniversityListSpinner"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content" />
+<TextView
+	android:id="@+id/blankTextView1"
+	android:layout_width="320dp"
+	android:layout_height="30dp" />
+<TextView
+	android:id="@+id/categoryTextview"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/selectcategory" 
+	android:gravity="center"/>
+<Spinner
+	android:id="@+id/categorySpinner"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content" />
+<Button
+	android:id="@+id/submit_button"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/universitySelect_button"
+	android:onClick="submitAction" />
+<TextView
+	android:id="@+id/searchLabel"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/Search"
+	android:gravity="center" />
+
+
+<EditText
+	android:id="@+id/searchKeyEdittext"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:hint="@string/searchText"
+	android:textSize="18sp" />
+<Button
+	android:id="@+id/searchresultsButton"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/searchResults"
+	android:onClick="search" />
+
+</LinearLayout>
+

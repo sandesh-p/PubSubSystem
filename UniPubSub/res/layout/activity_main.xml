@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget38"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="318dp"
+        android:layout_height="55dp"
+        android:hint="@string/topicMessage"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="createTopic"
+        android:text="@string/createButton" />
+
+    <Button
+        android:id="@+id/publish_button"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:onClick="publishToTopic"
+        android:text="@string/publishButton" />
+
+    <Button
+        android:id="@+id/subscribe_button"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:onClick="subscribeToTopic"
+        android:text="@string/subscribeButton" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Spinner
+	android:id="@+id/subTopicSpinner"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content" />
+<EditText
+	android:id="@+id/emailInput"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:hint="@string/emailText"
+	android:textSize="18sp" />
+<Button
+	android:id="@+id/subscribeButton"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="@string/subscribeButton" />
+</LinearLayout>
