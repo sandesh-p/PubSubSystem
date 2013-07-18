@@ -1,10 +1,11 @@
-ReadMe for Milestone 5: Mobile Computing App Development
+ReadMe for  Mobile Computing App Development
 
 Koustubh Kulkarni <krk9372@rit.edu>
 Sandesh Pardeshi <ssp9237@rit.edu>
 Date: November 13th, 2012
 ===========================================================================================================================================================
-This is the final milestone submission for our app development. In this milestone, we have successfully implemented following functionalities in our app:
+This is the final milestone submission for our app development. 
+In this milestone, we have successfully implemented following functionalities in our app:
 
 1. Provided university and category specific topic access to the students.
 2. Implemented the search functionality.
